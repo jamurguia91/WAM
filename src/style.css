@@ -1,0 +1,17 @@
+.grid {
+display: grid;
+grid-template-columns: repeat(3, 0fr);
+grid-template-rows: repeat(3, 0fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: grey solid 1px;
+}
+
+.mole {
+  background-color: blue;
+}
